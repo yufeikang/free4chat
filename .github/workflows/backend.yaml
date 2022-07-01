@@ -2,8 +2,8 @@ name: Backend Binary Build Job
 
 on:
   push:
-    tags:
-      - v*.*.*-b
+    branches:
+      - master
 
 env:
   # Use docker.io for Docker Hub if empty
